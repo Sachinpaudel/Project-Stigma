@@ -16,3 +16,8 @@ function sum(n){
     return total;
 }
 document.write(sum(n));
+
+
+const fs = require("fs");
+const read = fs.readFileSync('a.txt', 'utf-8');
+document.write(read);
